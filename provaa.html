@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Trajnimi ODK</title>
+
+   <link rel="stylesheet" type="text/css" href="slide.css">
+  <script type="text/javascript" src="slide.js"></script>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img class="gold" src= "gold.png">
+            </div><br>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#kontakt">Contact</a></li>
+        </ul>
+    </nav>
+ 
+ <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="gymi1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="gymi2.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="gymi3.jpg" style="width:50%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="home">Gold's Gym</h1>
+                <p class="text-small">
+                    Deshiron te keshe nje fizik qe ke enderruar gjithmone
+                    ,je i merzitur
+                    nga pesha jote momentale?Eja ne Gold'Gym ku endrra jote mund te behet
+                    realitet,me salle te pastert,trajner te licensuar per nga ana e fitnesit
+                    dhe nutricionit dhe me pajisjet me te reja te fintesit.
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="about">
+                       Trajneret
+                </h1>
+                <img src="trajner.jpg" alt="trajneri">
+                <p class="text-small-1">
+                    
+                    Trajneret jane ata te cilet na bejne neve te suksesshem. Secili trajner eshte
+                    motivues dhe per cdo gjenerate perrcjellin motivimet e tyre
+                    dhe po ashtu inspirojne njerzit per nje fizik dhe nje shendet te mire,duke pasur shume
+                    lloje plane stervitjesh po ashtu edhe plane te dietave.
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big" id="kontakt">Gold's Gym</h1>
+ 
+            <p class="sectionSubTag text-small">
+                Per qdo paqartesi eja dhe na kontakto neve per ofertat qe ndodhin mbrenda mujit,3 muaj sa kushtojne,6muaj dhe antarsimi 1 vjeqar dhe per qdo paqartesi tjeter qe mund te keni
+
+                
+            </p>
+            <form class="forma">
+           Emri:<input type="text" name="emri"><br>
+           Mbiemri:<input type="text" name="mbiemri"><br>
+           Email:<input type="email" required><br>
+           <input type="submit" name="send" value="Submit">
+           <input type="button" value="Options" onclick="newDoc()">
+           <p id="demo"></p>
+
+
+
+
+
+
+        </form>
+         
+ 
+ 
+        </div>
+    </section>
+ 
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-ODK
+        </p>
+        <p id="demo"></p>
+ 
+ 
+    </footer>
+    <script>
+        function newDoc() {
+  window.location.assign("https://www.goldsgym.com")
+}
+
+</script>
+</body>
+ 
+</html>
